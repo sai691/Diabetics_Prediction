@@ -7,7 +7,7 @@ import numpy as np
 model_diabetes = pickle.load(open('model_diabetes.sav', 'rb'))
 
 # Web Title
-st.title('Diabetes Prediction')
+st.title('Diabetes Prediction Web App')
 
 # Split Columns
 col1, col2 = st.columns(2)
